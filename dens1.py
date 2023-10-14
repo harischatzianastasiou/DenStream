@@ -58,7 +58,7 @@ for z in range(len(data)):
     #Do clustering
     pmc_clusters = clusterer.cluster_p_mcs()
 
-    v_size_of_object = sys.getsizeof("clusterer.p_micro_clusters) + sys.getsizeof(clusterer.o_micro_clusters);
+    v_size_of_object = sys.getsizeof(clusterer.p_micro_clusters) + sys.getsizeof(clusterer.o_micro_clusters);
                                 
 
     for i in range(len(clusterer.p_micro_clusters)):
