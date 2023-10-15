@@ -118,5 +118,5 @@ for z in range(len(data)):
     filename = os.path.join ('plots', f"plot_{z}.png")
     plt.savefig(filename,bbox_inches='tight')
     plt.show(block=False)
-# filename = os.path.join ('plots', f"plot_{z}.png")
-# plt.savefig(filename)
+filename = os.path.join ('plots', f"plot_{z}.png")
+plt.savefig(filename)
